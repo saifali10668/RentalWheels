@@ -1,0 +1,33 @@
+# Android & Gradle
+*.iml
+.gradle
+local.properties
+/local.properties
+/.idea/
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Python, Django & AI Services
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+**/db.sqlite3
+/backend/media/
+/backend/staticfiles/
+.env
+**/.env
+
+# Node / Frontend
+node_modules/
+**/node_modules/
+/frontend/.next/
+/frontend/out/

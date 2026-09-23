@@ -1,0 +1,21 @@
+# Core Python Dependencies for AI Verification Services
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Computer Vision & Image Processing
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Face Matching & Feature Extraction
+facenet-pytorch>=2.5.3
+torch>=2.0.0
+torchvision>=0.15.0
+
+# OCR & License Plate Recognition
+easyocr>=1.7.0
+
+# Utilities
+requests>=2.31.0
